@@ -1,7 +1,7 @@
 # The SQL*Plus
 
 ## 1) how to create a table with out constrain 
-<img src="https://raw.githubusercontent.com/Narayanan-info/Narayanan-info/main/g1.gif" width="1000" height="500">
+<img src="image/1.png" width="1000" height="500">
 
 ```bash
 create table EMPLOYEE
