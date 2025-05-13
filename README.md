@@ -13,7 +13,7 @@ branch varchar(5)
 );
 ```
 ## 2) how to create a table with constrain 
-<img src="https://raw.githubusercontent.com/Narayanan-info/Narayanan-info/main/g1.gif" width="1000" height="500">
+<img src="image/2.png" width="1000" height="500">
 
 ```bash
 create table table_name
@@ -25,3 +25,25 @@ Phone number(10) not null unique check(length(Phone)=10),
 );
 
 ```
+
+## 3) how to rename table name 
+<img src="image/3.png" width="1000" height="500">
+
+```bash
+RENAME Old_name to new_name;
+```
+## 4) how to delete table permanently from data base 
+
+```bash
+truncate table EMPLOYEE2;
+```
+### Truncate will empty the table (will not remove the table structure)
+
+## 5) how to drop the table from database
+<img src="image/4.png" width="1000" height="500">
+
+```bash
+drop table table_name;
+```
+
+## 6) 
