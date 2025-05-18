@@ -109,3 +109,23 @@ INSERT INTO DEPT VALUES (40, 'OPERATIONS', 'BOSTON');
 SELECT * FROM EMP;
 SELECT * FROM DEPT;
 ```
+## 1) HOW TO DISPLAY NAME FROM EMP TABLE
+```bash
+SELECT ENAME
+FROM EMP;
+```
+<img src="image/6.png" width="1000" height="500">
+
+## 2) HOW TO DISPLAY ALL THE COLUMNS FROM EMP TABLE
+```bash
+SELECT *
+FROM EMP;
+```
+<img src="image/7.png" width="1000" height="500">
+
+## 3) HOW TO DISPLAY ANNUAL SALARY FOR EMPOYEE
+```bash
+SELECT SAL*12
+FROM EMP;
+```
+<img src="image/8.png" width="1000" height="500">
