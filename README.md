@@ -129,3 +129,60 @@ SELECT SAL*12
 FROM EMP;
 ```
 <img src="image/8.png" width="1000" height="500">
+
+## 4) HOW TO DISPLAY HALF TERM ANNUAL SALARY FOR EMPOYEE
+```bash
+SELECT SAL*6
+FROM EMP;
+```
+<img src="image/9.png" width="1000" height="500">
+
+## 5) HOW TO DISPLAY HALF TERM ANNUAL SALARY FOR EMPOYEE
+```bash
+SELECT SAL*6
+FROM EMP;
+```
+<img src="image/9.png" width="1000" height="500">
+
+## 6) HOW TO DISPLAY YEAR SALARY WITH 20% HIKE EMPOYEE
+```bash
+SELECT SAL*12+SAL*12 *20/100
+FROM EMP;
+```
+<img src="image/10.png" width="1000" height="500">
+
+## 7) HOW TO DISPLAY YEAR SALARY WITH 20% HIKE EMPOYEE
+```bash
+SELECT SAL*12-SAL*12 *9/100
+FROM EMP;
+```
+<img src="image/11.png" width="1000" height="700">
+<br/>
+<br/>
+
+# ALIAS
+<h3>
+* Alias is an alternative name which is assigned for a column name or an experssion in the result table <br/>
+* we can assign alias name with or without using "As" Keywords <br/>
+* Alias name must be a Single String Which is Seperate by an Unterscorce or enclosed within double quotes
+</h3>
+
+## 1) HOW TO Change output column name 
+```bash
+SELECT SAL*12 AS ANNUAL_SALARY
+FROM EMP;
+```
+## OR 
+```bash
+SELECT SAL*12 AS "ANNUAL SALARY"
+FROM EMP;
+```
+<img src="image/12.png" width="1000" height="800">
+
+# SELECT CLAUS
+<h3>
+* Select is used to Retive the Data By Selecting Row and Columns
+</h3>
+
+
+
