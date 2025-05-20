@@ -187,8 +187,9 @@ FROM EMP;
 ## 1) WAQTD names of the employees if they are working in department number 10
 
 ```bash
-
-
+SELECT ENAME
+FROM EMP
+WHERE DEPTNO= 10;
 ```
 <img src="image/13.png" width="1000" height="800">
 
