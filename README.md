@@ -184,5 +184,56 @@ FROM EMP;
 * Select is used to Retive the Data By Selecting Row and Columns
 </h3>
 
+## 1) WAQTD names of the employees if they are working in department number 10
 
+```bash
+
+
+```
+<img src="image/13.png" width="1000" height="800">
+
+## 2) WAQTD detail of the employees if they are not working in department number 10
+
+```bash
+SELECT *
+FROM EMP
+WHERE DEPTNO !=10;
+```
+<img src="image/14.png" width="1000" height="800">
+
+## 3) WAQTD det ails of the employees if they are getting salary more than 1000
+
+```bash
+SELECT *
+FROM EMP
+WHERE SAL > 1000;
+```
+<img src="image/15.png" width="1000" height="800">
+
+## 4) WAQTD Name Salary and Designation of the employees if they are getting salary less then 5000
+
+```bash
+SELECT ENAME,SAL,JOB
+FROM EMP
+WHERE SAL < 5000;
+```
+<img src="image/16.png" width="1000" height="800">
+
+## 5) WAQTD Details of the Employee if they are working as manager
+
+```bash
+SELECT *
+FROM EMP
+WHERE JOB = 'MANAGER';
+```
+<img src="image/17.png" width="1000" height="800">
+
+## 6) WAQTD Details of the employee if they hired after 81
+
+```bash
+SELECT *
+FROM EMP
+WHERE HIREDATE > '31-DEC-81';
+```
+<img src="image/18.png" width="1000" height="800">
 
